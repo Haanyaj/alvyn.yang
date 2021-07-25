@@ -295,14 +295,15 @@ img{
 .home__description {
     margin-bottom: var(--mb-2);
 }
-
+/*
 .home__scroll {
-    /*display: none;*/
+    display: none;
 }
+*/
 
 .home__scroll-button {
     color: var(--first-color);
-    transition: 3s;
+    transition: .3s;
 }
 
 .home__scroll-button:hover {

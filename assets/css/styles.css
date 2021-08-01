@@ -466,12 +466,90 @@ img{
     width: 100%;
 }
 
+.skills__java{
+    width: 80%;
+}
+
+
+.skills__cplusplus{
+    width: 90%;
+}
+
+.skills__sql{
+    width: 70%;
+}
+
+.skills__python{
+    width: 60%;
+}
+
+.skills__ruby{
+    width: 40%;
+}
+
+.skills__prolog{
+    width: 30%;
+}
+
+
+.skills__csharp{
+    width: 40%;
+}
+.skills__wordpress{
+    width: 60%;
+}
+
+.skills__joomla{
+    width: 40%;
+}
+
+
+
+.skills__javaback{
+    width: 70%;
+}
+
 .skills__react{
     width: 80%;
 }
-.skills__java{
-    width: 90%;
+
+.skills__php{
+    width: 50%;
 }
+
+.skills__node{
+    width: 30%;
+}
+
+.skills__nest{
+    width: 40%;
+}
+
+.skills__figma{
+    width: 65%;
+}
+
+.skills__canva{
+    width: 65%;
+}
+
+.skills__selling{
+    width: 75%;
+}
+
+.skills__mgt{
+    width: 75%;
+}
+
+.skills__marketing{
+    width: 40%;
+}
+
+.skills__law{
+    width: 40%;
+}
+
+
 
 .skills__close .skills__list {
     height: 0;

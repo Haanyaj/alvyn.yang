@@ -116,18 +116,18 @@ img{
 
 }
 
-.section_title{
+.section__title{
     font-size: var(--h1-font-size);
 }
 
-.section_subtitle{
+.section__subtitle{
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-3);
 }
 
 
-.section_title,.section_subtitle {
+.section__title,.section__subtitle {
     text-align: center;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
@@ -410,7 +410,8 @@ img{
 
 .skills__icon,
 .skills__arrow {
-    font-size: var(--first-color);
+    font-size: 2rem;
+    color: var(--first-color);
 }
 
 .skills__icon{
@@ -419,6 +420,52 @@ img{
 
 .skills__title {
     font-size: var(--h3-font-size);
+}
+
+.skills__subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.skills__arrow {
+    margin-left: auto;
+    transition: .4s;
+}
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__bar, .skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar {
+    background-color: var(--first-color-lighter);
+}
+
+.skills__percentage {
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills__c{
+    width: 100%;
+}
+
+.skills__react{
+    width: 80%;
+}
+.skills__java{
+    width: 90%;
 }
 
 

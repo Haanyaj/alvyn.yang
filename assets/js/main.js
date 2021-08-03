@@ -79,6 +79,7 @@ tabs.forEach(tab =>{
 let swiper = new Swiper('.portfolio__container', {
     effect: 'cube',
     grabCursor: true,
+    loop: true,
     cubeEffect: {
       shadow: false,
       slideShadows: true,
@@ -88,6 +89,7 @@ let swiper = new Swiper('.portfolio__container', {
     pagination: {
       el: '.swiper-pagination',
       clickable:true,
+      dynamicBullets: true,
     },
     keyboard:true,
   });

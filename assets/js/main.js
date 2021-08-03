@@ -76,8 +76,21 @@ tabs.forEach(tab =>{
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-
-
+let swiper = new Swiper('.portfolio__container', {
+    effect: 'cube',
+    grabCursor: true,
+    cubeEffect: {
+      shadow: false,
+      slideShadows: true,
+      shadowOffset: 20,
+      shadowScale: 0.94,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable:true,
+    },
+    keyboard:true,
+  });
 /*==================== TESTIMONIAL ====================*/
 
 

@@ -83,8 +83,10 @@ body.dark-theme {
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%) ;
 }
 
-
-
+/*========== typing effect ==========*/
+.typed__text {
+    color:var(--first-color);
+}
 /*========== Button Dark/Light ==========*/
 .nav__btns {
     display: flex;

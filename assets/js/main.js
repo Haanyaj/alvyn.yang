@@ -163,3 +163,12 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+var typed = new Typed('.typed__text', {
+    strings: ['Alvyn', 'an IT developer'],
+    smartBackspace: true, // Default value
+    typeSpeed: 60,
+    backSpeed:60,
+    loop:true,
+  });

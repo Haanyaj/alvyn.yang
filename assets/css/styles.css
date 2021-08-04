@@ -231,6 +231,10 @@ img{
     gap:2em;
 }
 
+.logo {
+    height: 12%;
+    width: 12%;
+}
 .nav__link {
     display: flex;
     flex-direction: column;

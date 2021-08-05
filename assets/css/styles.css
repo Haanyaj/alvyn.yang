@@ -922,7 +922,7 @@ img{
         grid-column: initial;
     }
 
-    .home__blob-img {
+    .home__img {
         order: 1;
         justify-self: center;
     }
@@ -1039,7 +1039,7 @@ img{
     }
 
     .qualification__tabs {
-        justify-content: initial;
+        justify-content: center;
     }
 
     .qualification__button{
@@ -1071,7 +1071,7 @@ img{
         column-gap: 2rem;
     }
 
-    .footer__social {
+    .footer__socials {
         justify-self: flex-end;
     }
 
